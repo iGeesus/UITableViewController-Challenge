@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  JSTableViewController.h
 //  UITableView Challenge
 //
 //  Created by Jesús Santa Olalla on 9/27/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface JSTableViewController : UITableViewController
 
 @end
-

@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		A282144919D724CA00AB88C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A282144819D724CA00AB88C3 /* main.m */; };
 		A282144C19D724CA00AB88C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A282144B19D724CA00AB88C3 /* AppDelegate.m */; };
-		A282144F19D724CB00AB88C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A282144E19D724CB00AB88C3 /* ViewController.m */; };
 		A282145219D724CB00AB88C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A282145019D724CB00AB88C3 /* Main.storyboard */; };
 		A282145419D724CC00AB88C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A282145319D724CC00AB88C3 /* Images.xcassets */; };
 		A282145719D724CC00AB88C3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A282145519D724CC00AB88C3 /* LaunchScreen.xib */; };
 		A282146319D724CE00AB88C3 /* UITableView_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A282146219D724CE00AB88C3 /* UITableView_ChallengeTests.m */; };
+		A282146E19D728C800AB88C3 /* JSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A282146D19D728C800AB88C3 /* JSTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		A282144819D724CA00AB88C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A282144A19D724CA00AB88C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A282144B19D724CA00AB88C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A282144D19D724CA00AB88C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A282144E19D724CB00AB88C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A282145119D724CB00AB88C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A282145319D724CC00AB88C3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A282145619D724CC00AB88C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A282145C19D724CE00AB88C3 /* UITableView ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableView ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A282146119D724CE00AB88C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A282146219D724CE00AB88C3 /* UITableView_ChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableView_ChallengeTests.m; sourceTree = "<group>"; };
+		A282146C19D728C800AB88C3 /* JSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTableViewController.h; sourceTree = "<group>"; };
+		A282146D19D728C800AB88C3 /* JSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +83,9 @@
 			children = (
 				A282144A19D724CA00AB88C3 /* AppDelegate.h */,
 				A282144B19D724CA00AB88C3 /* AppDelegate.m */,
-				A282144D19D724CA00AB88C3 /* ViewController.h */,
-				A282144E19D724CB00AB88C3 /* ViewController.m */,
 				A282145019D724CB00AB88C3 /* Main.storyboard */,
+				A282146C19D728C800AB88C3 /* JSTableViewController.h */,
+				A282146D19D728C800AB88C3 /* JSTableViewController.m */,
 				A282145319D724CC00AB88C3 /* Images.xcassets */,
 				A282145519D724CC00AB88C3 /* LaunchScreen.xib */,
 				A282144619D724C900AB88C3 /* Supporting Files */,
@@ -219,9 +219,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A282144F19D724CB00AB88C3 /* ViewController.m in Sources */,
 				A282144C19D724CA00AB88C3 /* AppDelegate.m in Sources */,
 				A282144919D724CA00AB88C3 /* main.m in Sources */,
+				A282146E19D728C800AB88C3 /* JSTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
