@@ -1,6 +1,28 @@
-# UITableViewController - iOS Swift Style Guide.
+# Walmart México - iOS
 
 Walmart México iOS app
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development.
+
+### Prerequisites
+
+```
+Xcode 9.3+
+iOS 9.0 +
+Cocoapods
+```
+
+### Installing
+
+Pods are not included on the repository, once you have downloaded the code introduce the following command.
+
+```
+pod install
+```
+
+Once you have the pods installed use WalMart.xcworkspace to open the project.
 
 ## Table of Contents
 
